@@ -1,6 +1,6 @@
 
 ## 템플릿 저장
-```
+```javascript
 contentPane.parameterEl.getWidgetByName("p1").setValue("9999");
 window.contentPane.refreshAllSheets();
 contentPane.exportReportToExcel('simple');
@@ -8,7 +8,7 @@ contentPane.exportReportToExcel('simple');
 
 
 ## Excel 불러오기
-```
+```javascript
 contentPane.parameterEl.getWidgetByName("p1").setValue("9999");
 window.contentPane.refreshAllSheets();
 contentPane.importExcel();
@@ -16,7 +16,7 @@ contentPane.importExcel();
 
 
 ## 데이터 삭제 
-```
+```javascript
 FR.showIframeDialog({        
 	url: FR.cjkEncode(FR.servletURL + "?viewlet=DELETE_RAWDATA.cpt&op=write&tbl="+ tbl +"&fld="+ fld + "&val="+val ),
 	title: "삭제",
